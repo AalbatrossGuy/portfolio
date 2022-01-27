@@ -1,4 +1,108 @@
-body{
-  background-color: grey;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Mochiy+Pop+P+One&display=swap');
+
+* {
+  * margin: 0;
+  * padding: 0;
+  * box-sizing: border-box;
+  * text-decoration: none;
+  * font-family: 'Dongle', 'Mochiy Pop P One';
+  * }
+
+.header{
+  width: 100%;
+  height: 100vh;
+  background: #020412;
+  color: #fff;
+  padding: none;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 0 10px;
+}
+
+.menu-icon{
+  padding-right: 4%;
+  width: 50px;
+  cursor: pointer;
+}
+
+nav ul{
+  flex: 1;
+  text-align: right;
+  padding-right: 10px;
+
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+
+}
+
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+
+.text{
+  margin-top: 15%;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 0px;
+  padding-left: 10%;
+  /* text-indent: 1%; */
+}
+
+.text  h1{
+  font-size: 65px;
+  line-height: 140px;
+}
+
+/* .text a{
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  border: 2px solid #fff724;
+  color: #fff724;
+  padding: 20px 100px;
+  text-decoration: none;
+  padding-left: 0%;
+  text-indent: 80%;
+} */
+
+.text .dbtn{
+  background: #7289da;
+  color: #000;
+  border: 2px solid #7289da;
+  margin-left: 30px;
+  font-weight: 400;
+}
+
+.text .rbtn{
+  background: #FF4301;
+  border: 2px solid #FF4301;
+  color: #000;
+  margin-left: 30px;
+  font-weight: 400; 
+}
+
+.discord{
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+}
+
+.reddit{
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+  padding-left: 20px;
 }
