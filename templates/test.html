@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>Dashboard Example</title>
+<style type="text/css">
+body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; }
+iframe { border: none; }
+</style>
+<script type="text/javascript">
+var Dash = {
+    nextIndex: 0,
+
+    dashboards: [
+        {url: "C:\CarPositionBrisbane.HTML", time: 5},
+        {url: "C:\CarPositionCaboolture.HTML", time: 5},
+        {url: "C:\CarPositionLogan.HTML", time: 5},
+        {url: "C:\CarPositionWarwick.HTML", time: 5},
+        {url: "C:\CarPositionHobart.HTML", time: 5},
+        {url: "C:\CarPositionToowoomba.HTML", time: 5},
+        {url: "C:\CarPositionIpswich.HTML", time: 5},
+        {url: "C:\CarPositionYeppoon.HTML", time: 5},
+
+
+    ],
+
+    display: function()
+    {
+        var dashboard = Dash.dashboards[Dash.nextIndex];
+        frames["displayArea"].location.href = dashboard.url;
+        Dash.nextIndex = (Dash.nextIndex + 1) % Dash.dashboards.length;
+        setTimeout(Dash.display, dashboard.time * 1000);
+    }
+};
+
+window.onload = Dash.display;
+</script>
+</head>
+<body>
+<iframe name="displayArea" width="100%" height="100%"></iframe>
+</body>
+</html>
