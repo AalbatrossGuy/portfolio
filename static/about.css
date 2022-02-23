@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  * margin: 0;
+  * padding: 0;
+  * box-sizing: border-box;
+  * text-decoration: none;
+  * font-family: 'Dongle', 'Mochiy Pop P One';
+  * }
+
+body {
+  background: radial-gradient(#ffc38c, #ff9b40);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#canvas1 {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(#25364f, #4d71a5, #9bc4ff); */
+  background: linear-gradient(#ffc38c, #ff9b40);
+}
+
+.header{
+  width: 100%;
+  height: 100vh;
+  /* background: #020412; */
+  color: #fff;
+  padding: none;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 0 10px;
+}
+
+.menu-icon{
+  padding-right: 4%;
+  width: 50px;
+  cursor: pointer;
+}
+
+nav ul{
+  flex: 1;
+  text-align: right;
+  padding-right: 10px;
+
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+
+}
+
+nav ul li a{
+  /* color: rgb(253, 252, 252); */
+  color: black;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 20px;
+
+}
+
+
+.aboutme-img{
+  width: 100%;
+  text-align: center;
+}
+
+.aboutme-img img{
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.about-me{
+  font-family: 'Open Sans', sans-serif;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 3.5px;
+}
+
+h2 {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+  line-height: 5rem;
+  margin: 2rem;
+}
+
+.aboutme-btn {
+  display: inline-block;
+  padding: 1.5rem 5.5rem;
+  background: hotpink;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #398f51;
+  border-radius: 5px;
+  transition: background 0.5s;
+}
+
+.aboutme-btn:hover {
+  background: #dadada;
+}
