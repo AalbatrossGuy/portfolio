@@ -101,10 +101,50 @@ nav ul li a{
   border-bottom-left-radius: 50% 50%;
   object-position: 300px 50px;
 } */
-.about-me{
+.email{
   font-family: 'Square Peg', cursive;
   color: black;
   position: absolute;
   top: 550px;
   right: 100px;
+}
+
+.discord{
+  height: 33px;
+  width: 30px;
+  /* margin-top: 100px; */
+  position: absolute;
+  top: 620px;
+  right: 230px;
+}
+
+.reddit{
+  height: 30px;
+  width: 30px;
+  /* margin-top: 100px; */
+  position: absolute;
+  top: 620px;
+  right: 190px;
+}
+
+.instagram{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 620px;
+  right: 150px;
+}
+
+.github{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 620px;
+  right: 110px;
+}
+
+.intro-text{
+  font-family: 'Square Peg', cursive;
+  color: black;
+  position: absolute;
 }
