@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Square+Peg&display=swap'); */
+@import url('http://fonts.cdnfonts.com/css/book-antiqua?styles=15621');
 * {
   * margin: 0;
   * padding: 0;
@@ -11,8 +12,10 @@
 
 body {
   /* background: radial-gradient(#ffc38c, #ff9b40); */
-  background-color: #D9AFD9;
-  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  /* background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%); */
+  background-color: #f1dfd1;
+  background-image: linear-gradient(345deg, #f1dfd1, 80%, #f6f0ea 84%);
 }
 
 html{
@@ -26,8 +29,6 @@ html{
   height: 100%;
   /* background: linear-gradient(#25364f, #4d71a5, #9bc4ff); */
   /* background: linear-gradient(#ffc38c, #ff9b40); */
-
-
 }
 
 .header{
@@ -147,4 +148,14 @@ nav ul li a{
   font-family: 'Square Peg', cursive;
   color: black;
   position: absolute;
+  font-size: 80px;
+  padding-left: 15%;
+}
+
+.long-description{
+  font-family: 'Book Antiqua', sans-serif;
+  font-size: 25px;
+  text-align: left;
+  padding-top: 200px;
+  color: black;
 }
